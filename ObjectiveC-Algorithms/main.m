@@ -6,11 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "FindContentChildren.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"%ld", (long)[FindContentChildren.new findContentChildren:@[@1, @1, @2] withSizes:@[@1, @1]]);
     }
     return 0;
 }
