@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A57FD53F2595E956003B74AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57FD53E2595E956003B74AF /* main.m */; };
 		A57FD54D2595ED6A003B74AF /* FindContentChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = A57FD54C2595ED6A003B74AF /* FindContentChildren.m */; };
+		A5EC272F2599D3790000DA5C /* LongestPalindrome.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EC272E2599D3790000DA5C /* LongestPalindrome.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		A57FD53E2595E956003B74AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A57FD54B2595ED6A003B74AF /* FindContentChildren.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindContentChildren.h; sourceTree = "<group>"; };
 		A57FD54C2595ED6A003B74AF /* FindContentChildren.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindContentChildren.m; sourceTree = "<group>"; };
+		A5EC272D2599D3790000DA5C /* LongestPalindrome.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LongestPalindrome.h; sourceTree = "<group>"; };
+		A5EC272E2599D3790000DA5C /* LongestPalindrome.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LongestPalindrome.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,10 +72,28 @@
 		A57FD5462595E961003B74AF /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				A5EC272C2599D3450000DA5C /* longestPalindrome */,
+				A5EC272B2599D32B0000DA5C /* findContentChildren */,
+			);
+			path = algorithms;
+			sourceTree = "<group>";
+		};
+		A5EC272B2599D32B0000DA5C /* findContentChildren */ = {
+			isa = PBXGroup;
+			children = (
 				A57FD54B2595ED6A003B74AF /* FindContentChildren.h */,
 				A57FD54C2595ED6A003B74AF /* FindContentChildren.m */,
 			);
-			path = algorithms;
+			path = findContentChildren;
+			sourceTree = "<group>";
+		};
+		A5EC272C2599D3450000DA5C /* longestPalindrome */ = {
+			isa = PBXGroup;
+			children = (
+				A5EC272D2599D3790000DA5C /* LongestPalindrome.h */,
+				A5EC272E2599D3790000DA5C /* LongestPalindrome.m */,
+			);
+			path = longestPalindrome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A57FD53F2595E956003B74AF /* main.m in Sources */,
+				A5EC272F2599D3790000DA5C /* LongestPalindrome.m in Sources */,
 				A57FD54D2595ED6A003B74AF /* FindContentChildren.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

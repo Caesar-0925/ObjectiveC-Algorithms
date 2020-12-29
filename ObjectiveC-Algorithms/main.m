@@ -6,12 +6,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "FindContentChildren.h"
+#import "LongestPalindrome.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"%ld", (long)[FindContentChildren.new findContentChildren:@[@1, @1, @2] withSizes:@[@1, @1]]);
+        NSLog(@"%@", [LongestPalindrome.new longestPalindrome:@"abababaff"]);
     }
     return 0;
 }
