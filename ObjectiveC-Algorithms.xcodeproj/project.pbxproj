@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5158B23259B177A00AB5F64 /* MinPatches.m in Sources */ = {isa = PBXBuildFile; fileRef = A5158B22259B177A00AB5F64 /* MinPatches.m */; };
 		A57FD53F2595E956003B74AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A57FD53E2595E956003B74AF /* main.m */; };
 		A57FD54D2595ED6A003B74AF /* FindContentChildren.m in Sources */ = {isa = PBXBuildFile; fileRef = A57FD54C2595ED6A003B74AF /* FindContentChildren.m */; };
 		A5EC272F2599D3790000DA5C /* LongestPalindrome.m in Sources */ = {isa = PBXBuildFile; fileRef = A5EC272E2599D3790000DA5C /* LongestPalindrome.m */; };
@@ -25,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		A5158B21259B177A00AB5F64 /* MinPatches.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MinPatches.h; sourceTree = "<group>"; };
+		A5158B22259B177A00AB5F64 /* MinPatches.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MinPatches.m; sourceTree = "<group>"; };
 		A57FD53B2595E956003B74AF /* ObjectiveC-Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "ObjectiveC-Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57FD53E2595E956003B74AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A57FD54B2595ED6A003B74AF /* FindContentChildren.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindContentChildren.h; sourceTree = "<group>"; };
@@ -44,6 +47,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5158B20259B172F00AB5F64 /* 330.minPatch */ = {
+			isa = PBXGroup;
+			children = (
+				A5158B21259B177A00AB5F64 /* MinPatches.h */,
+				A5158B22259B177A00AB5F64 /* MinPatches.m */,
+			);
+			path = 330.minPatch;
+			sourceTree = "<group>";
+		};
 		A57FD5322595E956003B74AF = {
 			isa = PBXGroup;
 			children = (
@@ -72,28 +84,29 @@
 		A57FD5462595E961003B74AF /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
-				A5EC272C2599D3450000DA5C /* longestPalindrome */,
-				A5EC272B2599D32B0000DA5C /* findContentChildren */,
+				A5EC272C2599D3450000DA5C /* 5.longestPalindrome */,
+				A5158B20259B172F00AB5F64 /* 330.minPatch */,
+				A5EC272B2599D32B0000DA5C /* 455.findContentChildren */,
 			);
 			path = algorithms;
 			sourceTree = "<group>";
 		};
-		A5EC272B2599D32B0000DA5C /* findContentChildren */ = {
+		A5EC272B2599D32B0000DA5C /* 455.findContentChildren */ = {
 			isa = PBXGroup;
 			children = (
 				A57FD54B2595ED6A003B74AF /* FindContentChildren.h */,
 				A57FD54C2595ED6A003B74AF /* FindContentChildren.m */,
 			);
-			path = findContentChildren;
+			path = 455.findContentChildren;
 			sourceTree = "<group>";
 		};
-		A5EC272C2599D3450000DA5C /* longestPalindrome */ = {
+		A5EC272C2599D3450000DA5C /* 5.longestPalindrome */ = {
 			isa = PBXGroup;
 			children = (
 				A5EC272D2599D3790000DA5C /* LongestPalindrome.h */,
 				A5EC272E2599D3790000DA5C /* LongestPalindrome.m */,
 			);
-			path = longestPalindrome;
+			path = 5.longestPalindrome;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +168,7 @@
 				A57FD53F2595E956003B74AF /* main.m in Sources */,
 				A5EC272F2599D3790000DA5C /* LongestPalindrome.m in Sources */,
 				A57FD54D2595ED6A003B74AF /* FindContentChildren.m in Sources */,
+				A5158B23259B177A00AB5F64 /* MinPatches.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
